@@ -6,4 +6,7 @@ Prepare your eyes for horrible code as i literally dont know shit about C and ra
 
 Requirements: Raylib, glfw, cmake, gmake (If on freebsd please use gmake as i havent made this for portability yet)
 
-!(tessera.png)
+
+<p align="center">
+  <img src="tessera.png" alt="Project showcase" width="500">
+</p>

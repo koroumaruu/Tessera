@@ -1,6 +1,6 @@
 CC     = clang
 CFLAGS = -g -Wall -Wextra -Iinclude $(shell pkg-config --cflags raylib)
-LFLAGS = $(shell pkg-config --libs raylib) -lm
+LFLAGS = $(shell pkg-config --libs raylib) -lm -lX11
 
 TARGET = bin/tessera
 SRCS   = $(wildcard src/*.c)

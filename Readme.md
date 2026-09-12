@@ -4,7 +4,7 @@ its a super useless fork but i wanted a version I could distribute to my other c
 
 Prepare your eyes for horrible code as i literally dont know shit about C and raylib and so im just googling docs lowk
 
-Requirements: Raylib, glfw, cmake, gmake (If on freebsd please use gmake as i havent made this for portability yet)
+Requirements: Raylib, glfw, cmake (If on freebsd please use gmake as i havent made this for portability yet)
 
 ```
 Instructions:
@@ -16,6 +16,10 @@ Instructions:
 to remove:
     sudo make uninstall
 ```
+
+If your Distro does not support raylib please consult
+```https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux```
+for more info
 
 
 
